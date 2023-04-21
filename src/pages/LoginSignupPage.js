@@ -77,7 +77,7 @@ export default function LoginSignUpPage() {
         <div style={{ borderBottom: "1px solid" }}>Description</div>
         <div>1. This is video sharing platform.</div>
         <div>2. Here you can upload video, like & comment on video</div>
-        <div>3. If you are new then singup or use this credential to explore platform. <span style={{ fontWeight: "700" }}>(arsalan@gmail.com, 123456789)</span></div>
+        <div>3. If you are new then singup or use this credential to explore platform. <span style={{ fontWeight: "700" }}>(kaushal@gmail.com, 123456789)</span></div>
       </div>
     </>
   );
