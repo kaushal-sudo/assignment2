@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: coral;
+  padding: 1rem;
+}
+
+.cardTop {
+  display: flex;
+  gap: 0.5rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  margin-bottom: 4px;
+  border: 1px solid;
+}
+
+.videoCommentsWrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.commentsSection {
+  background-color: white;
+  margin-top: 0.25rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  position: relative;
+  border: 1px solid;
+}
+
+.commentsSectionBottomWrapper {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  background-color: white;
+  border-radius: 1.5rem;
+  margin-bottom: 1px;
+}
+
+.allCommentsWrapper {
+  max-height: 16.5rem;
+  height: 16.5rem;
+  overflow: auto;
+}
+
+.allCommentsWrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.allCommentsWrapper::-webkit-scrollbar-track {
+  background: white; 
+}
+ 
+.allCommentsWrapper::-webkit-scrollbar-thumb {
+  background: coral; 
+}
+
+.allCommentsWrapper::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
+
+.video {
+  height: 350px;
+  width: 600px;
+  border: 1px solid;
+}
+
+.loginSignupWrapper {
+  background-color: coral;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.description {
+  background-color: lightgreen;
+  border: 1px solid;
+  border-radius: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  width: 47%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  border-bottom: 1px sol;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1149px) {
+  .videoCommentsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .video {
+    width: 100%;
+  }
+  .commentsSection {
+    width: 99%;
+  }
+}
